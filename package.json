@@ -7,18 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.js"
   },
-  "proxy": "http://localhost:3001",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NikolaTesla17/thompsonIndex.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NikolaTesla17/thompsonIndex/issues"
-  },
-  "homepage": ".",
   "dependencies": {
     "express": "^4.17.1"
   }
