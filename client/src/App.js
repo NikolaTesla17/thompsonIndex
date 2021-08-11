@@ -25,6 +25,8 @@
 // export default App;
 import React from "react";
 import logo from "./logo.svg";
+import ReactDOM from 'react-dom';
+import Button from '@material-ui/core';
 import "./App.css";
 
 function App() {
@@ -41,9 +43,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>{!data ? "Loading..." : data}</p>
+        <Button color="primary">Hello World</Button>;
+
+
       </header>
     </div>
   );
 }
+
+ReactDOM.render(<App />, document.querySelector('#app'));
 
 export default App;
